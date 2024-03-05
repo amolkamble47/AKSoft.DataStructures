@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IsPackable>true</IsPackable>
+    <!-- <PackageVersion>1.0.0</PackageVersion> --><PackageVersionPrefix>1.0.0</PackageVersionPrefix>
+
+    <Authors>Amol Kamble</Authors>
+    <Company>AKSoft</Company>
+    <Description>Custom DataStructures Core Implmentation</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2024 (c) AKSoft. All rights reserved.</Copyright>
+    <PackageTags>DataStructures Core AKSoft</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
