@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -26,6 +26,7 @@
     <ProjectReference Include="..\AKSoft.DataStructures.Stack\AKSoft.DataStructures.Stack.csproj" />
     <ProjectReference Include="..\AKSoft.DataStructures.Core\AKSoft.DataStructures.Core.csproj" />
     <ProjectReference Include="..\AKSoft.DataStructures.Queue\AKSoft.DataStructures.Queue.csproj" />
+    <ProjectReference Include="..\AKSoft.DataStructures.LinkedList\AKSoft.DataStructures.LinkedList.csproj" />
   </ItemGroup>
 
 </Project>
